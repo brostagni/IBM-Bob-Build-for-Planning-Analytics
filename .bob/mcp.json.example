@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "pa-tz-cube": {
+      "type": "streamable-http",
+      "url": "http://<YOUR_TECHZONE_HOST>:<PORT>/api/<YOUR_API_KEY>/v0/agentic-ai/cube/mcp",
+      "headers": {
+        "Authorization": "Basic <YOUR_BASE64_CREDENTIALS>"
+      },
+      "timeout": 600000,
+      "alwaysAllow": [
+        "get_cubes_that_may_answer_query",
+        "get_available_tm1_servers",
+        "get_data_from_data_explorer",
+        "lookup_potential_members",
+        "get_cube_sample_members"
+      ],
+      "disabled": false
+    },
+    "pa-tz-server": {
+      "type": "streamable-http",
+      "url": "http://<YOUR_TECHZONE_HOST>:<PORT>/api/<YOUR_API_KEY>/v0/agentic-ai/analysis/mcp",
+      "headers": {
+        "Authorization": "Basic <YOUR_BASE64_CREDENTIALS>"
+      },
+      "timeout": 600000,
+      "alwaysAllow": [
+        "get_available_tm1_servers"
+      ],
+      "disabled": false
+    }
+  }
+}
