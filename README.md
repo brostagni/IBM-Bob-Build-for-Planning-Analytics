@@ -17,7 +17,7 @@ Through **20 practical exercises** across **8 domains**, it shows concretely how
 | Document | Language | Description |
 |---|---|---|
 | [`guide-bob-pa-build.md`](guide-bob-pa-build.md) | 🇫🇷 French | Complete guide — 20 exercises with real Bob outputs captured on the 24Retail demo server |
-| `guide-bob-pa-build-en.md` | 🇬🇧 English | English version of the same guide |
+| [`guide-bob-pa-build-en.md`](guide-bob-pa-build-en.md) | 🇬🇧 English | English version of the same guide |
 | [`guide-bob-pa-build-plan.md`](guide-bob-pa-build-plan.md) | 🇫🇷 French | Construction plan — breakdown of all 20 exercises by domain and subtask |
 | [`guide-bob-pa-mcp-config.md`](guide-bob-pa-mcp-config.md) | 🇫🇷 French | Step-by-step MCP configuration guide to connect Bob to Planning Analytics |
 
